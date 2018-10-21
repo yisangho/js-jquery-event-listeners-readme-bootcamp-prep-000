@@ -15,7 +15,7 @@ $("form").on("submit", function() {
   submitIt()
 });
 
-$(document).on('keyup', function(key) {
+$(document).on('keydown', function(key) {
   if (key.which == 71){
     pressIt();
   }
