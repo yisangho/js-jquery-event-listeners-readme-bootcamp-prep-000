@@ -21,6 +21,10 @@ $(document).on('keyup', function(key) {
 
 }
 
+function window.submitIt() {
+  alert('You clicked G')
+}
+
 
 function window.submitIt() {
   alert('Your form is going to be submitted now.')
