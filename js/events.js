@@ -14,7 +14,7 @@ $("form").on("submit", function() {
 
 $(document).on('keyup', function(key) {
   if (key.which == 71){
-    alert('r was pressed');
+    pressIt();
   }
 });
 
