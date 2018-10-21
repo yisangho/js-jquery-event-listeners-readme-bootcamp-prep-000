@@ -16,6 +16,6 @@ $("form").on("submit", function() {
 }
 
 
-function submitIt() {
+window.submitIt() {
   alert('Your form is going to be submitted now.')
 })
