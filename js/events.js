@@ -4,7 +4,7 @@ $(document).ready(function(){
 
 // call functions here
 $('p').on("click", function() {
-  alert("Hey!");
+  getIt();
 });
 
 $('img').on('load', function(){
@@ -22,6 +22,11 @@ $(document).on('keyup', function(key) {
 });
 
 
+}
+
+
+function getIt() {
+  alert("Hey!");
 }
 
 function frameIt() {
