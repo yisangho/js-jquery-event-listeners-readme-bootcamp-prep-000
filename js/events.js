@@ -3,9 +3,6 @@
 $(document).ready(function(){
 
 // call functions here
-
-
-
 getIt();
 
 frameIt();
@@ -15,7 +12,7 @@ pressIt();
 submitIt();
 
 
-}
+});
 
 function getIt() {
   $('p').on("click", function() {
