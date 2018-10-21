@@ -27,7 +27,7 @@ function frameIt() {
   });
 }
 
-function submitIt() {
+function pressIt() {
   $("form").on("submit", function() {
     alert('You clicked G')
   });
