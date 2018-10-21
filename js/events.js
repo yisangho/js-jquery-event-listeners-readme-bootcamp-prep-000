@@ -44,10 +44,3 @@ function submitIt() {
     }
   });
 }
-
-
-
-
-
-
-
