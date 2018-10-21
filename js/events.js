@@ -21,11 +21,11 @@ $(document).on('keyup', function(key) {
 
 }
 
-function window.pressIt() {
+function pressIt() {
   alert('You clicked G')
 }
 
 
-function window.submitIt() {
+function submitIt() {
   alert('Your form is going to be submitted now.')
 }
