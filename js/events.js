@@ -22,9 +22,6 @@ $(document).on('keyup', function(key) {
 });
 
 
-}
-
-
 function getIt() {
   alert("Hey!");
 }
@@ -39,4 +36,7 @@ function pressIt() {
 
 function submitIt() {
   alert('Your form is going to be submitted now.')
+}
+
+
 }
