@@ -21,7 +21,7 @@ $(document).on('keyup', function(key) {
 
 }
 
-function window.submitIt() {
+function window.pressIt() {
   alert('You clicked G')
 }
 
